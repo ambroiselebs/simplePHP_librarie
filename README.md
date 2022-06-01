@@ -4,6 +4,12 @@
 A PHP library to simplify everything you can do in PHP
 
 
+# __Installation__
+
+
+Simply execute : `git clone https://github.com/ambroiselebs/simplePHP_librarie.git` and there you go!
+
+
 # __Documentation__
 
 ## __Create a .php file :__
