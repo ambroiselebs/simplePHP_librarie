@@ -74,6 +74,8 @@ you must give it as a variable :
 - $data = $conn
 ```
 
+/!\ Everything can be changed in `components/librarie_functions/search.inc.php` /!\
+
 #### Example:
 
 Database (called users):
@@ -105,6 +107,8 @@ you must give it as a variable :
 - $data = $conn
 ```
 
+/!\ Everything can be changed in `components/librarie_functions/search.inc.php` /!\
+
 #### Example :
 
 Database (called users):
@@ -117,5 +121,36 @@ Code :
 ```
 if (isset($_POST['login])) {
     simplePHP_register(htmlspecialchars($_POST['username']), htmlspecialchars($_POST['email']), htmlspecialchars($_POST['password']), 'users', 'id', 'username', 'email', 'password', $conn);
+}
+```
+
+## __Search :__
+
+The function is call `simplePHP_search`
+you must give it as a variable :
+
+```
+$toSearch = Word in the input
+$searchDatabase = The database where everything is
+$searchName = The name of the row of where you want to search
+$data = $conn
+```
+
+/!\ Everything can be changed in `components/librarie_functions/search.inc.php` /!\
+
+#### Example :
+
+Database (called : catalog) :
+
+```
+| id (int(11)) | name (varchar(258)) |
+|              |                     |
+```
+
+Code :
+
+```
+if (isset($_POST['search'])) {
+    simplePHP_search(htmlspecialchars($_POST['search_input']), 'catalog', 'name', $conn);
 }
 ```
