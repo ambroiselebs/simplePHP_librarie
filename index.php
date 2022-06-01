@@ -1,5 +1,6 @@
 <?php
     require("components/requires.php");
+    session_start();
 ?>
 
 <html lang="en">
