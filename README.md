@@ -10,7 +10,7 @@ A PHP library to simplify everything you can do in PHP
 
 Execute the command : `./createPHPfile.bat [name of your file without ".php"]`
 
-####Example :
+#### Example :
 
 `./createPHPfile.bat home`, It's gonna create in the src folder a file named : home.php With pre-generated lines.
 
