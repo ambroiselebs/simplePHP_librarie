@@ -6,6 +6,14 @@ A PHP library to simplify everything you can do in PHP
 
 # __Documentation__
 
+## __Create a .php file :__
+
+Execute the command : `./createPHPfile.bat [name of your file without ".php"]`
+
+####Example :
+
+`./createPHPfile.bat home`, It's gonna create in the src folder a file named : home.php With pre-generated lines.
+
 ## __Conenction to the Database :__
 
 Go on : `components/dbh.inc.php`
