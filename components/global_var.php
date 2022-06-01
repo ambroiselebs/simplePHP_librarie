@@ -1,0 +1,3 @@
+<?php
+
+$websiteName = "SimplePHP - Demo";
