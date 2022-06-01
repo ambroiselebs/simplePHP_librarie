@@ -29,5 +29,5 @@ if ["%1"] == [""] (
     echo(^</html^>
     )>src/%1.php
 
-    echo The file named %1.php has been created
+    echo The file named %1.php has been created in the directory : src/%1.php
 )
