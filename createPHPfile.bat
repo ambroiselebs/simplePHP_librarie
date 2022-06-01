@@ -22,6 +22,8 @@ if ["%1"] == [""] (
     echo(
     echo(   ^<h1^>Hello World!^</h1^>
     echo(
+    echo(   ^<script src="js/script.js"^>^</script^>
+    echo(
     echo(^</body^>
     echo(^</html^>
     )>src/%1.php
