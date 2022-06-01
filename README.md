@@ -59,6 +59,10 @@ if (!$conn) {
 }
 ```
 
+## __Global Variable__ :
+
+You can change the title / Description... in the file : `components/global_var.php`
+
 ## __Login__ :
 
 The function is call `simplePHP_Login()`
