@@ -1,6 +1,6 @@
 <?php
 
-function simplePHP_Login($email, $password, $userBdd, $emailTable, $passwordTable, $userIdTable, $usernameTable, $data) {
+function simplePHP_Login($email, $password, $userBdd, $userIdTable, $usernameTable, $emailTable, $passwordTable, $data) {
 
     //Check if the field aren't empty
     if ($email != null || $password != null) {

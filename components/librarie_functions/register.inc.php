@@ -1,6 +1,6 @@
 <?php
 
-function simplePHP_register($username, $email, $password, $userBdd, $usernameTable, $emailTable, $passwordTable, $idTable, $data) {
+function simplePHP_register($username, $email, $password, $userBdd, $idTable, $usernameTable, $emailTable, $passwordTable, $data) {
 
     //Check if the field aren't empty
     if ($username != null || $email != null || $password != null) {
