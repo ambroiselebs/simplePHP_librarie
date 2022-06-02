@@ -14,7 +14,10 @@
 </head>
 <body>
 
-   <h1>Hello World!</h1>
+   <div class="simplephp_center">
+      <h1 class="simplephp_title">Simple PHP</h1>
+      <p class="simplephp_auth">Created by ambroiselebs</p>
+   </div>
 
    <script src="js/script.js"></script>
 

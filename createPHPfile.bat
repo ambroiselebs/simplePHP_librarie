@@ -21,7 +21,10 @@ if ["%1"] == [""] (
     echo(^</head^>
     echo(^<body^>
     echo(
-    echo(   ^<h1^>Hello World!^</h1^>
+    echo(   ^<div class="simplephp_center"^>
+    echo(       ^<h1 class="simplephp_title"^>Simple PHP^</h1^>
+    echo(       ^<p class="simplephp_auth"^>Created by ambroiselebs^</p^>   
+    echo(   ^</div^>
     echo(
     echo(   ^<script src="js/script.js"^>^</script^>
     echo(
@@ -29,5 +32,5 @@ if ["%1"] == [""] (
     echo(^</html^>
     )>src/%1.php
 
-    echo The file named %1.php has been created in the directory : src/%1.php
+    echo A file has been created in : src/%1.php
 )
