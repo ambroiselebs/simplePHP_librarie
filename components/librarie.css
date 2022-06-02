@@ -1,0 +1,51 @@
+.success_reg {
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    transform: translate(-1%, -1%);
+    padding: 20px;
+    background: #26de81;
+    text-align: center;
+    opacity: .7;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.reg_error {
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    transform: translate(-1%, -1%);
+    padding: 20px;
+    background: #eb3b5a;
+    text-align: center;
+    opacity: .7;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.success_log {
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    transform: translate(-1%, -1%);
+    padding: 20px;
+    background: #26de81;
+    text-align: center;
+    opacity: .7;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.log_error {
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    transform: translate(-1%, -1%);
+    padding: 20px;
+    background: #eb3b5a;
+    text-align: center;
+    opacity: .7;
+    display: inline-block;
+    border-radius: 5px;
+}

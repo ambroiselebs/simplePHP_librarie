@@ -1,5 +1,5 @@
 <?php
-    require("components/requires.php");
+    require("components/global_var.php");
     session_start();
 ?>
 
