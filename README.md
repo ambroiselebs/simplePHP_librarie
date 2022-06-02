@@ -61,7 +61,7 @@ if (!$conn) {
 
 ## __Global Variable__ :
 
-You can change the title / Description... in the file : `components/global_var.php`
+You can change the title / Icon... in the file : `components/global_var.php`
 
 ## __Login__ :
 
