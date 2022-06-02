@@ -1,13 +1,13 @@
 <?php
 
-function simplePHP_Login($email, $password, $userBdd, $userIdTable, $usernameTable, $emailTable, $passwordTable, $data) {
+function simplePHP_Login($username, $password, $userBdd, $userIdTable, $usernameTable, $emailTable, $passwordTable, $data) {
 
     //Check if the field aren't empty
-    if ($email != null || $password != null) {
+    if ($username != null || $password != null) {
         //Not empty
         
         //Check if the user exist
-        $sql = "SELECT * FROM $userBdd WHERE '$emailTable' LIKE '$email'";
+        $sql = "SELECT * FROM $userBdd WHERE $usernameTable LIKE '$username'";
         $res = mysqli_query($data, $sql);
 
         if (mysqli_num_rows($res) > 0) {
@@ -23,15 +23,15 @@ function simplePHP_Login($email, $password, $userBdd, $userIdTable, $usernameTab
                     //[--------< Sessions >--------]\\
 
                     $_SESSION['user_id'] = $row[$userIdTable];
-                    $_SESSION['username'] = $row[$usernameTable];
+                    $_SESSION['username'] = $username;
                     $_SESSION['email'] = $row[$emailTable];
-                    $_SESSION['password'] = $row[$password];
+                    $_SESSION['password'] = $password;
 
 
                     //[--------< Cookie >--------]\\
 
-                    setcookie("email", $emailTable, time()((86400 * 30)*5), "/"); // Cookie for 5 mounths
-                    setcookie("password", $password, time()((86400 * 30)*5), "/"); // Cookie for 5 mounths
+                    setcookie("username", $username);
+                    setcookie("password", $password);
 
                     //Success
                     //########################################################################################

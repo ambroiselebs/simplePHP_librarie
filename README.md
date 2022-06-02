@@ -68,7 +68,7 @@ You can change the title / Description... in the file : `components/global_var.p
 The function is call `simplePHP_Login()`
 you must give it as a variable :
 ```
-- $email : Email get from the input
+- $username : Username get from the input
 - $password : Password get from the input
 - $userBdd : The name of your users table
 - $emailtable : The name of the email row
@@ -91,7 +91,7 @@ Database (called users):
 Code :
 ```
 if (isset($_POST['login])) {
-    simplePHP_Login(htmlspecialchars($_POST['email']), htmlspecialchars($_POST['password']), 'users', 'id', 'username', 'email', 'password', $conn);
+    simplePHP_Login(htmlspecialchars($_POST['username']), htmlspecialchars($_POST['password']), 'users', 'id', 'username', 'email', 'password', $conn);
 }
 ```
 
