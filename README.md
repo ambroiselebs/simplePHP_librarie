@@ -2,11 +2,12 @@
 A PHP library to simplify everything you can do in PHP
 # __Installation__
 Simply execute : `git clone https://github.com/ambroiselebs/simplePHP_librarie.git` and there you go!
-# __Documentation__
 
 # __Compile the project__
 
 Execute the command : `./build.bat` it will create a build/ folder in which your project will be compiled, just upload it to your FTP !
+
+# __Documentation__
 
 ## __Create a PHP file :__
 Execute the command : `./createPHPfile.bat [name of your file without ".php"]`
