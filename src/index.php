@@ -9,7 +9,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/reset.css">
    <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="../components/librarie.css">
+   <link rel="stylesheet" href="../components/librarie_css/librarie.css">
    <link rel="shortcut icon" href="assets/<?php echo $favicon; ?>" type="image/png">
    <title><?php echo $websiteName; ?></title>
 </head>
