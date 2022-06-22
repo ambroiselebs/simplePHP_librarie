@@ -1,0 +1,28 @@
+{
+  "name": "simplephp",
+  "version": "1.0.0",
+  "description": "A simple PHP librarie with multiple functions and sass compiler",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "simplephp",
+      "sass::ver": "sass --version",
+      "sass": "sass --watch src/scss:src/css"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambroiselebs/simplePHP_librarie.git"
+  },
+  "author": "ambroiselebs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ambroiselebs/simplePHP_librarie/issues"
+  },
+  "homepage": "https://github.com/ambroiselebs/simplePHP_librarie#readme",
+  "dependencies": {
+    "sass": "^1.52.3"
+  }
+}

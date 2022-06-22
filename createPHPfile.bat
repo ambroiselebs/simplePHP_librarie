@@ -5,7 +5,7 @@ if ["%1"] == [""] (
 ) else (
     (
     echo(^<?php
-    echo(   ^require^("components/requires.php"^);
+    echo(   ^require^("../components/requires.php"^);
     echo(   session_start^(^);
     echo(^?^>
     echo(
@@ -15,7 +15,7 @@ if ["%1"] == [""] (
     echo(   ^<meta name="viewport" content="width=device-width, initial-scale=1.0"^>
     echo(   ^<link rel="stylesheet" href="css/reset.css"^>
     echo(   ^<link rel="stylesheet" href="css/style.css"^>
-    echo(   ^<link rel="stylesheet" href="components/librarie_css/librarie.css"^>
+    echo(   ^<link rel="stylesheet" href="css/librarie.css"^>
     echo(   ^<title^>^<?php echo $websiteName; ?^>^</title^>
     echo(^</head^>
     echo(^<body^>

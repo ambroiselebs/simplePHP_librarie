@@ -9,15 +9,19 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/reset.css">
    <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="../components/librarie_css/librarie.css">
+   <link rel="stylesheet" href="css/librarie.css">
    <link rel="shortcut icon" href="assets/<?php echo $favicon; ?>" type="image/png">
    <title><?php echo $websiteName; ?></title>
 </head>
 <body>
 
    <div class="simplephp_center">
-      <h1 class="simplephp_title">Simple PHP</h1>
-      <p class="simplephp_auth">Created by ambroiselebs</p>
+      <div class="items">
+         <div class="txt">
+            <h1 class="simplephp_title">Simple PHP</h1>
+            <p class="simplephp_auth">Created by ambroiselebs</p>
+         </div>
+      </div>
    </div>
 
    <script src="js/script.js"></script>

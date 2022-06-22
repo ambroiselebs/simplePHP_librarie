@@ -9,6 +9,13 @@ Execute the command : `./build.bat` it will create a build/ folder in which your
 
 # __📝 Documentation__
 
+## __Compile SCSS :__
+
+Execute the command : `./compileScss.bat` and there you go !
+Just save your scss file and It will compile
+
+⚠️ Put the css source in your HTML not the SCSS ⚠️
+
 ## __Create a PHP file :__
 Execute the command : `./createPHPfile.bat [name of your file without ".php"]`
 #### Example :
