@@ -11,6 +11,7 @@
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/librarie.css">
    <link rel="shortcut icon" href="assets/<?php echo $favicon; ?>" type="image/png">
+   <meta http-equiv="refresh" content="10" />
    <title><?php echo $websiteName; ?></title>
 </head>
 <body>

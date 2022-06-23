@@ -16,6 +16,7 @@ if ["%1"] == [""] (
     echo(   ^<link rel="stylesheet" href="css/reset.css"^>
     echo(   ^<link rel="stylesheet" href="css/style.css"^>
     echo(   ^<link rel="stylesheet" href="css/librarie.css"^>
+    echo(   ^<meta http-equiv="refresh" content="10" /^>)
     echo(   ^<title^>^<?php echo $websiteName; ?^>^</title^>
     echo(^</head^>
     echo(^<body^>
